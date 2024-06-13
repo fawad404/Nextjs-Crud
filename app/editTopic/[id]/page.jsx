@@ -1,4 +1,4 @@
-import EditTopicForm from "@/components/EditTopicForm";
+import EditTopicForm from "../../../components/EditTopicForm";
 
 const getTopicByID = async (id) => {
     const apiUrl = process.env.NEXT_PUBLIC_API_URL;
