@@ -1,7 +1,7 @@
 import Link from "next/link";
 import RemoveBtn from "@/components/RemoveBtn";
 import { HiPencilAlt } from "react-icons/hi";
-import { getTopics } from "@/lib/api";
+import { getTopics } from "../libs/mongodb";
 
 export async function getServerSideProps() {
   const topics = await getTopics();
